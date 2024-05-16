@@ -1,22 +1,42 @@
 /*
   ========================================
-  Homepage
+  UNIVERSAL WEBPAGE FEATURES
   ========================================
 */
 body {
-    background-color: #808026;
+  background-color: #808026;
+  text-align: center;
 }
 
+/*
+  ========================================
+  HOMEPAGE WORDS
+  ========================================
+*/
+.big-title h1 {
+  font-family: 'Merriweather',black;
+  font-size: 100px;
+  color: #ceb14f;
+  text-shadow: 2px 2px #000000;
+  }
+
+.words h2 {
+  font-family: 'Merriweather', black;
+  font-size: 50px;
+  color: #ceb14f;
+  text-shadow: 2px 2px #000000;
+  }
+
+/*
+  ========================================
+  HOMEPAGE BUTTON
+  ========================================
+*/
 .btn {
-  position: fixed;
-  top: 950px;
-  left: 500px;
   color: #ceb14f;
   background-color: #5383ec;
-  transform: translate(-50%, -50%);
-  font-family: "Merriweather", black;
+  font-family: "Merriweather", bold;
   font-weight: 700;
-  font-style: normal;
   font-size: 100px;
 }
 
@@ -30,34 +50,24 @@ body {
   color: #ceb14f;
 }
 
+/*
+  ========================================
+ HOMEPAGE PICTURE
+  ========================================
+*/
 .my-image {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 800px;
-  height: 800px;
+  width:100%;
+  max-width: 800px;
+  margin-bottom: -150px;
 }
 
-.big-title h1 {
-  font-family: 'Merriweather',black;
-  font-size: 100px;
-  color: #ceb14f;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-shadow: 2px 2px #000000;
-  }
-
-  .words h2 {
-    font-family: 'Merriweather', black;
-    font-size: 50px;
-    color: #ceb14f;
-    text-shadow: 2px 2px #000000;
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-  }
+/*
+  ========================================
+ FLAG PICTURES
+  ========================================
+*/
+.my-image {
+  width:200%;
+  max-width: 800px;
+  margin-bottom: -150px;
+}
