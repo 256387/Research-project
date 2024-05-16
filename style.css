@@ -8,37 +8,56 @@ body {
 }
 
 .btn {
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    letter-spacing: .5px;
-    margin: 0;
-    text-transform: uppercase;
-  }
-  .btn-alt {
-    border: 1px solid #fff;
-    padding: 10px 30px;
-  }
-  .btn-alt:hover {
-    background: #fff;
-    color: #648880;
+  position: fixed;
+  top: 950px;
+  left: 500px;
+  color: #ceb14f;
+  background-color: #5383ec;
+  transform: translate(-50%, -50%);
+  font-family: "Merriweather", black;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 150px;
+}
+
+.btn-alt:hover {
+  background: black;
+  color: #ceb14f;
+}
+
+.my-image {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+}
+
+.big-title h1 {
+  font-family: 'Merriweather',black;
+  font-size: 100px;
+  color: #ceb14f;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px #000000;
   }
 
-  .speaker {
-    margin-bottom: 44px;
-  }
-  .speaker-info {
-    border: 1px solid #dfe2e5;
-    border-radius: 5px;
-    margin-top: 88px;
-    padding-bottom: 22px;
-    text-align: center;
-  }
-  .speaker-info img {
-    border-radius: 50%;
-    height: 130px;
-    margin: -66px 0 22px 0;
-    vertical-align: top;
+  .words h2 {
+    font-family: 'Merriweather', black;
+    font-size: 50px;
+    color: #ceb14f;
+    text-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
   }
