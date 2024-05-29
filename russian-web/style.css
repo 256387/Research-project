@@ -1,0 +1,105 @@
+/*
+  ========================================
+  UNIVERSAL WEBPAGE FEATURES
+  ========================================
+*/
+body {
+  background-color: #808026;
+  text-align: center;
+}
+
+/*
+  ========================================
+  HOMEPAGE WORDS
+  ========================================
+*/
+.big-title h1 {
+  font-family: 'Merriweather',black;
+  font-size: 100px;
+  color: #ceb14f;
+  text-shadow: 2px 2px #000000;
+  }
+
+.words h2 {
+  font-family: 'Merriweather', black;
+  font-size: 50px;
+  color: #ceb14f;
+  text-shadow: 2px 2px #000000;
+  }
+
+/*
+  ========================================
+  HOMEPAGE BUTTON
+  ========================================
+*/
+.btn {
+  color: #ceb14f;
+  background-color: #5383ec;
+  font-family: "Merriweather", bold;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 150px;
+}
+
+.btn-alt:hover {
+  background: black;
+  color: #ceb14f;
+}
+
+/*
+  ========================================
+ HOMEPAGE PICTURE
+  ========================================
+*/
+.my-image {
+  width:100%;
+  max-width:900px;
+}
+
+/*
+  ========================================
+ FLAG PICTURES
+  ========================================
+*/
+.american {
+  width:100%;
+  max-width: 600px;
+}
+
+.german {
+  width:100%;
+  max-width: 600px;
+}
+
+.russian {
+  width:100%;
+  max-width: 600px;
+}
+
+/*
+  ========================================
+ GENERAL USE BUTTON
+  ========================================
+*/
+.btn {
+  color: #ceb14f;
+  background-color: #5383ec;
+  font-family: "Merriweather", bold;
+  font-weight: 700;
+  font-size: 50px;
+  z-index: 0;
+}
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+
+.btn-alt:hover {
+  background: black;
+  color: #ceb14f;
+}
